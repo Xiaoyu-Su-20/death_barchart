@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+
+.bars {
+ fill:#9FC29F; 
+ stroke-width:1.5;
+ stroke:#80593D
+}
+
+.label {
+	font-size: 1em;
+}
+
+/* the styles of lines  */
+.mean_line {
+  stroke:red;
+  stroke-width:3;
+	stroke-dasharray:14;
+}
+.error_line {
+  stroke:#3D6480;
+  stroke-width:2;
+	stroke-dasharray:14;
+}
+
+/* buttons */
+.button-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.buttons {
+  background-color: rgb(255,255,204);
+  border: 1;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 16px;
+  cursor: pointer;
+  border-radius: 12px; /*rounded*/
+}
